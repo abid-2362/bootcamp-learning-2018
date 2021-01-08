@@ -1,0 +1,27 @@
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #333;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header a {
+  padding: 7px 15px;
+  color: #fff;
+  display: inline-block;
+}
+header a:hover {
+  color: #ddd;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

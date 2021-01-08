@@ -1,0 +1,25 @@
+syntax = "proto3";
+package testdata;
+message Customer {
+  string username = 1;
+  repeated string email_address = 2;
+  Type type = 3;
+  Address address = 4;
+
+  enum Type {
+    REGULAR = 0;
+    MEMBER = 1;
+    SPONSOR = 2;
+  }
+  message Address {
+    string address = 1;
+    string city = 2;
+    string state = 3;
+    string zip_code = 4;
+  }
+
+  oneof access_type {
+    string email = 7;
+    string user = 8;
+  }
+}

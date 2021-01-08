@@ -1,0 +1,28 @@
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #333;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    padding: 7px 15px;
+    color: #fff;
+    display: inline-block;
+    &:hover {
+      color: #ddd;
+    }
+  }
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  // width: 100%;
+  // position: absolute;
+  // bottom: 0;
+}

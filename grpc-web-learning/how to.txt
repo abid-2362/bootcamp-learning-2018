@@ -1,0 +1,3 @@
+Important notes when installing.
+command to compile proto buffer file
+protoc -I=./proto echo.proto --js_out=import_style=commonjs:./pb
